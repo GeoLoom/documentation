@@ -17,15 +17,15 @@
 
 
 ## Command
--``git flow feature start login-page``
--crée une branche `feature/login-page` depuis `develop`.
--``git flow feature finish login-page``
--merge dans `develop` et supprime la branche locale.
--``git flow release start 1.0.0``
--crée `release/1.0.0` depuis `develop`.
--``git flow release finish 1.0.0``
--merge dans `main` + `develop` + crée un tag v1.0.0
--``git flow hotfix start urgent-fix``
--depuis `main`
--``git flow hotfix finish urgent-fix``
--merge dans `main` + `develop` + tag version
+- ``git flow feature start login-page``
+- Crée une branche `feature/login-page` depuis `develop`.
+- ``git flow feature finish login-page``
+- Merge dans `develop` et supprime la branche locale.
+- ``git flow release start 1.0.0``
+- Crée `release/1.0.0` depuis `develop`.
+- ``git flow release finish 1.0.0``
+- Merge dans `main` + `develop` + crée un tag v1.0.0
+- ``git flow hotfix start urgent-fix``
+- Depuis `main`
+- ``git flow hotfix finish urgent-fix``
+- Merge dans `main` + `develop` + tag version
